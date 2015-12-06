@@ -16,13 +16,18 @@ module.exports = (req, res) => {
 			.run(conn)
 			.then(cursor => cursor.toArray())
 			.then(user => {
-				if (user.length)
+
+				if (user.length){
+
+					req.session.user = user[0]
+
 					return res.status(200).json({
-						token: jwt.sign(user[0].id, Config.secret, {}),
+						token: jwt.sign(user[0].id, Config.secret, { expiresInMinutes: 1}),
 						user: user[0],
-						auth: true,
-						permission: user[0].permissions.user.create
+						auth: true
 					})
+				}
+					
 
 				else
 					return res.status(401).send({

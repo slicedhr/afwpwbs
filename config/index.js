@@ -11,8 +11,8 @@ var config = {
       name: 'afv2'
     },
     port: 3000,
-    db: { db: 'activos_fijos_main', host:'192.168.0.12', port: '28015' },
-    secret: FS.readFileSync('config/secret.ly') || 'ola k ase?'
+    db: { db: 'activos_fijos_main', host:'192.168.0.19', port: '28015' },
+    secret: require('./secret') || 'ola k ase?'
   },
 
 
@@ -23,7 +23,7 @@ var config = {
     },
     port: 3000,
     db: {db: 'afv2_production'},
-    secret: FS.readFileSync('config/secret.ly') || 'ola k ase?'
+    secret: require('./secret') || 'ola k ase?'
   }
 };
 

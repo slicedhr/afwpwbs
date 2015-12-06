@@ -1,17 +1,18 @@
 import Path from 'path'
 import Glob from 'glob'
 import BodyParser from 'body-parser'
-import jwt from "jsonwebtoken";
+import jwt from "jsonwebtoken"
 import Config from '../../config'
+import { getUser } from '../controllers/user'
 
 
 const appDir = Path.dirname(require.main.filename)
 
 String.prototype.contains = function(it) { 
 
-  return this.indexOf(it) != -1; 
+  return this.indexOf(it) != -1 
 
-};
+}
 
 export default class Routes {
   
@@ -20,29 +21,32 @@ export default class Routes {
     //JWT Middleware
     router.use((req, res, next) =>{
 
-      let token = req.body.token || req.query.token || req.headers['x-access-token'];
 
-      if (token) {
+      let token = req.body.token || req.query.token || req.headers['x-access-token']
 
+      if (token) 
         jwt.verify(token, Config.secret, (err, decoded) => {
 
           if (err) 
-            return res.json({ auth: false, message: 'Failed to authenticate token.' });
+            return res.json({ auth: false, message: 'Failed to authenticate token.' })
 
-          else {
+          else 
+            getUser(decoded)
+              .then(user => {
 
-            req.decoded = decoded; 
+                req.user = user
 
-            next();
-          }
+                next()
 
-        });
+            })
 
-      } else 
+        })
+
+      else 
         return res.status(403).send({ 
             auth: false, 
             message: 'No token.' 
-        });
+        })
     })
   	
     //Read routes folder
@@ -53,14 +57,14 @@ export default class Routes {
   		require(file)['default'](router)
 
   	})
-
-  	app.use(BodyParser.json());
+    
+  	app.use(BodyParser.json())
 
   	app.use(BodyParser.urlencoded({
 
   	    extended: true
 
-  	}));
+  	}))
 
 
 
@@ -70,7 +74,7 @@ export default class Routes {
 
     //Routes
 
-    app.use('/api/v1', router);
+    app.use('/api/v1', router)
 
 
 

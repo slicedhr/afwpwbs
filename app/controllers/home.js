@@ -1,22 +1,25 @@
 import R from 'rethinkdb'
 
+import Config from '../../config'
+
+
 export default class HomeController{
 
-  static getAll(req, res){
+  static getUser(id){
+    
+    return getUser(id)
+  }
 
-    // R.connect({db: 'activos_fijos_main', host:'192.168.0.11'}).then(conn => {
-    //   R.table('test').insert(require('./MOCK_DATA.json')).run(conn).then(fields=>{
-    //   console.log(fields)
-    // })
-    // })
+  static get(req, res){
 
+    let id = req.query.id || req.params.id || undefined;
 
-      res.send('Get All')
+    getUser(id)
+      .then(data => res.send(data))
   }
 
   static create(req, res){
 
-    console.log(req.session)
 
     res.send('Created')
   }

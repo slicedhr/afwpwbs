@@ -6,7 +6,6 @@ import CookieParser from 'cookie-parser'
 import BodyParser from 'body-parser'
 import Compress from 'compression' //compression middleware
 import MethodOverride from 'method-override' //Override HTTP verbs
-import Path from 'path'
 
 export default class ExpressConfig {
 
@@ -19,12 +18,15 @@ export default class ExpressConfig {
   app.locals.ENV = env;
 
   app.locals.ENV_DEVELOPMENT = env === 'development';
+
+
   
   app.set('views', `${config.root}/app/views`);
   
   app.set('view engine', 'jade');
 
   // app.use(Favicon(config.root + '/public/img/favicon.ico'));
+
 
   app.use(Logger('dev'));
 
@@ -55,7 +57,7 @@ export default class ExpressConfig {
 
     // err.status = 404;
 
-    res.render(Path.join(Path.dirname(require.main.filename), '/app/views'))
+    res.render(`${config.root}/app/views`)
 
     // next(err);
 

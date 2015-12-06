@@ -4,11 +4,16 @@ import ExpressCFG from './config/express'
 import Routes from './app/routes'
 import Session from 'express-session'
 
-
 let app = Express()
 
 app.use(Session({
-	secret: config.secret, resave: true, saveUninitialized: true
+
+    secret: config.secret,
+
+    resave: true, 
+
+    saveUninitialized: true
+
 }))
 
 Routes.init(app, Express.Router())
