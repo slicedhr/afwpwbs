@@ -1,0 +1,148 @@
+2015-12-08T09:49:06.224151305 0.914058s notice: Recursively removing directory /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/tmp
+2015-12-08T09:49:06.272080804 0.961986s notice: Initializing directory /home/arleyhr/Documentos/Projects/AF/rethinkdb_data
+2015-12-08T09:49:06.272428699 0.962334s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/arleyhr/Documentos/Projects/AF/rethinkdb_data' did not already exist or is empty.)
+2015-12-08T09:49:06.285991649 0.975900s notice: Running rethinkdb 2.2.1~0wily (GCC 5.2.1)...
+2015-12-08T09:49:06.295210685 0.985121s notice: Running on Linux 4.2.0-16-generic x86_64
+2015-12-08T09:49:06.295521666 0.985427s notice: Loading data from directory /home/arleyhr/Documentos/Projects/AF/rethinkdb_data
+2015-12-08T09:49:06.743300057 1.433206s info: Automatically using cache size of 3423 MB
+2015-12-08T09:49:06.744731063 1.434636s notice: Listening for intracluster connections on port 29015
+2015-12-08T09:49:06.829791151 1.519697s notice: Listening for client driver connections on port 28015
+2015-12-08T09:49:06.830259481 1.520165s notice: Listening for administrative HTTP connections on port 8080
+2015-12-08T09:49:06.830265784 1.520171s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-12-08T09:49:06.830267322 1.520172s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-08T09:49:06.830271292 1.520176s notice: Server ready, "arleyhr_laptop_91t" f35c18de-8e73-4b50-afb5-303c60fe3277
+2015-12-08T10:40:09.779900785 3064.469807s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2015-12-08T10:40:09.780031682 3064.469937s notice: Shutting down client connections...
+2015-12-09T08:32:57.007592203 4.618510s notice: Running rethinkdb 2.2.1~0wily (GCC 5.2.1)...
+2015-12-09T08:32:57.035793540 4.646715s notice: Running on Linux 4.2.0-19-generic x86_64
+2015-12-09T08:32:57.035937942 4.646855s notice: Loading data from directory /home/arleyhr/Documentos/Projects/AF/rethinkdb_data
+2015-12-09T08:32:57.369919946 4.980838s info: Automatically using cache size of 4441 MB
+2015-12-09T08:32:57.371761040 4.982678s notice: Listening for intracluster connections on port 29015
+2015-12-09T08:32:57.577453625 5.188371s notice: Listening for client driver connections on port 28015
+2015-12-09T08:32:57.577888550 5.188806s notice: Listening for administrative HTTP connections on port 8080
+2015-12-09T08:32:57.577894238 5.188811s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-12-09T08:32:57.577900252 5.188817s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-09T08:32:57.577906022 5.188823s notice: Server ready, "arleyhr_laptop_91t" f35c18de-8e73-4b50-afb5-303c60fe3277
+2015-12-09T08:33:27.769757191 35.380675s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2015-12-09T09:19:45.498175269 2813.109093s info: Table f01c5188-b813-429a-ad83-2836c8a06c2a: Added replica on this server.
+2015-12-09T09:19:45.500194597 2813.111112s info: Table b2ea2181-92e4-46ba-bb3b-85db62994cc5: Added replica on this server.
+2015-12-09T09:19:46.618699334 2814.229617s info: Table f01c5188-b813-429a-ad83-2836c8a06c2a: Starting a new Raft election for term 1.
+2015-12-09T09:19:46.685480571 2814.296398s info: Table f01c5188-b813-429a-ad83-2836c8a06c2a: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T09:19:46.948395340 2814.559313s info: Table b2ea2181-92e4-46ba-bb3b-85db62994cc5: Starting a new Raft election for term 1.
+2015-12-09T09:19:47.018758872 2814.629676s info: Table b2ea2181-92e4-46ba-bb3b-85db62994cc5: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T09:21:59.491675854 2947.102594s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/b2ea2181-92e4-46ba-bb3b-85db62994cc5
+2015-12-09T09:21:59.491701061 2947.102618s info: Table b2ea2181-92e4-46ba-bb3b-85db62994cc5: Deleted the table.
+2015-12-09T09:21:59.584126301 2947.195044s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/f01c5188-b813-429a-ad83-2836c8a06c2a
+2015-12-09T09:21:59.584141271 2947.195058s info: Table f01c5188-b813-429a-ad83-2836c8a06c2a: Deleted the table.
+2015-12-09T09:22:11.303658934 2958.914577s info: Table f2bf29fc-46f3-4ea5-b3ac-1493d69ec8cc: Added replica on this server.
+2015-12-09T09:22:11.333299550 2958.944217s info: Table 2b2cd903-4103-430e-a0d0-9ed0a5cbb219: Added replica on this server.
+2015-12-09T09:22:12.764654662 2960.375572s info: Table 2b2cd903-4103-430e-a0d0-9ed0a5cbb219: Starting a new Raft election for term 1.
+2015-12-09T09:22:12.834985376 2960.445903s info: Table 2b2cd903-4103-430e-a0d0-9ed0a5cbb219: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T09:22:13.155208862 2960.766126s info: Table f2bf29fc-46f3-4ea5-b3ac-1493d69ec8cc: Starting a new Raft election for term 1.
+2015-12-09T09:22:13.213227414 2960.824145s info: Table f2bf29fc-46f3-4ea5-b3ac-1493d69ec8cc: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T09:55:07.317045375 4934.927963s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/2b2cd903-4103-430e-a0d0-9ed0a5cbb219
+2015-12-09T09:55:07.317058879 4934.927976s info: Table 2b2cd903-4103-430e-a0d0-9ed0a5cbb219: Deleted the table.
+2015-12-09T09:55:07.408665300 4935.019583s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/f2bf29fc-46f3-4ea5-b3ac-1493d69ec8cc
+2015-12-09T09:55:07.408682765 4935.019600s info: Table f2bf29fc-46f3-4ea5-b3ac-1493d69ec8cc: Deleted the table.
+2015-12-09T09:55:19.814642691 4947.425561s info: Table 4c423a7b-f33a-4c1b-9cb8-6ee1315b6749: Added replica on this server.
+2015-12-09T09:55:19.837574785 4947.448493s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Added replica on this server.
+2015-12-09T09:55:21.255942425 4948.866860s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Starting a new Raft election for term 1.
+2015-12-09T09:55:21.322336555 4948.933254s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T09:55:21.711156476 4949.322074s info: Table 4c423a7b-f33a-4c1b-9cb8-6ee1315b6749: Starting a new Raft election for term 1.
+2015-12-09T09:55:22.055942655 4949.666860s info: Table 4c423a7b-f33a-4c1b-9cb8-6ee1315b6749: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:13:02.296302923 6009.907220s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Configuration is changing.
+2015-12-09T10:14:06.153136385 6073.764054s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Configuration is changing.
+2015-12-09T10:15:44.920283590 6172.531201s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Configuration is changing.
+2015-12-09T10:19:13.797669151 6381.408586s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/4c423a7b-f33a-4c1b-9cb8-6ee1315b6749
+2015-12-09T10:19:13.797681855 6381.408599s info: Table 4c423a7b-f33a-4c1b-9cb8-6ee1315b6749: Deleted the table.
+2015-12-09T10:19:13.860936186 6381.471854s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/684544d8-e49c-4c33-8dac-dea62aa60d1f
+2015-12-09T10:19:13.860958993 6381.471876s info: Table 684544d8-e49c-4c33-8dac-dea62aa60d1f: Deleted the table.
+2015-12-09T10:19:24.601314909 6392.212233s info: Table 9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d: Added replica on this server.
+2015-12-09T10:19:24.601844090 6392.212761s info: Table 1ee2f290-986c-41ac-8d97-9a4b27722e4c: Added replica on this server.
+2015-12-09T10:19:25.840342966 6393.451261s info: Table 9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d: Starting a new Raft election for term 1.
+2015-12-09T10:19:25.899410183 6393.510328s info: Table 9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:19:26.073885981 6393.684804s info: Table 1ee2f290-986c-41ac-8d97-9a4b27722e4c: Starting a new Raft election for term 1.
+2015-12-09T10:19:26.148242867 6393.759161s info: Table 1ee2f290-986c-41ac-8d97-9a4b27722e4c: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:22:42.973869884 6590.584787s info: Table 1ee2f290-986c-41ac-8d97-9a4b27722e4c: Configuration is changing.
+2015-12-09T10:22:42.974157642 6590.585075s info: Table 9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d: Configuration is changing.
+2015-12-09T10:22:50.384910168 6597.995828s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/1ee2f290-986c-41ac-8d97-9a4b27722e4c
+2015-12-09T10:22:50.384924418 6597.995841s info: Table 1ee2f290-986c-41ac-8d97-9a4b27722e4c: Deleted the table.
+2015-12-09T10:22:50.489729689 6598.100648s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d
+2015-12-09T10:22:50.489762610 6598.100680s info: Table 9c314dd9-2cb6-4fbf-9cc2-1ddffd5e2e2d: Deleted the table.
+2015-12-09T10:23:00.847738625 6608.458656s info: Table 47378290-cfb8-4269-a384-60886be7750e: Added replica on this server.
+2015-12-09T10:23:00.847899756 6608.458817s info: Table ea644c00-67f6-4bd7-a0c1-9091acf9b791: Added replica on this server.
+2015-12-09T10:23:02.026766705 6609.637684s info: Table 47378290-cfb8-4269-a384-60886be7750e: Starting a new Raft election for term 1.
+2015-12-09T10:23:02.097634142 6609.708552s info: Table 47378290-cfb8-4269-a384-60886be7750e: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:23:02.206283618 6609.817201s info: Table ea644c00-67f6-4bd7-a0c1-9091acf9b791: Starting a new Raft election for term 1.
+2015-12-09T10:23:02.253655263 6609.864573s info: Table ea644c00-67f6-4bd7-a0c1-9091acf9b791: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:25:43.836080573 6771.446998s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/47378290-cfb8-4269-a384-60886be7750e
+2015-12-09T10:25:43.836095237 6771.447012s info: Table 47378290-cfb8-4269-a384-60886be7750e: Deleted the table.
+2015-12-09T10:25:43.910051796 6771.520969s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/ea644c00-67f6-4bd7-a0c1-9091acf9b791
+2015-12-09T10:25:43.910069557 6771.520987s info: Table ea644c00-67f6-4bd7-a0c1-9091acf9b791: Deleted the table.
+2015-12-09T10:26:51.398179906 6839.009098s info: Table 7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a: Added replica on this server.
+2015-12-09T10:26:51.431589582 6839.042507s info: Table 7f36c990-bee8-4cb5-a2c2-4db3d95baa19: Added replica on this server.
+2015-12-09T10:26:52.688389309 6840.299307s info: Table 7f36c990-bee8-4cb5-a2c2-4db3d95baa19: Starting a new Raft election for term 1.
+2015-12-09T10:26:52.763227064 6840.374144s info: Table 7f36c990-bee8-4cb5-a2c2-4db3d95baa19: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T10:26:53.093966546 6840.704884s info: Table 7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a: Starting a new Raft election for term 1.
+2015-12-09T10:26:53.178882406 6840.789800s info: Table 7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T11:33:42.423011572 10850.033929s info: Table 7f36c990-bee8-4cb5-a2c2-4db3d95baa19: Configuration is changing.
+2015-12-09T11:33:42.566151539 10850.177069s info: Table 7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a: Configuration is changing.
+2015-12-09T11:34:12.233331764 10879.844249s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a
+2015-12-09T11:34:12.233356548 10879.844274s info: Table 7b7cfa79-45fe-4afc-817b-ee37e4fd8a7a: Deleted the table.
+2015-12-09T11:34:12.330907887 10879.941825s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/7f36c990-bee8-4cb5-a2c2-4db3d95baa19
+2015-12-09T11:34:12.330921195 10879.941838s info: Table 7f36c990-bee8-4cb5-a2c2-4db3d95baa19: Deleted the table.
+2015-12-09T11:35:12.830403583 10940.441321s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: Added replica on this server.
+2015-12-09T11:35:14.648028977 10942.258947s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: Starting a new Raft election for term 1.
+2015-12-09T11:35:14.716853792 10942.327772s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T11:36:15.008691928 11002.619609s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: Configuration is changing.
+2015-12-09T11:36:15.897402730 11003.508321s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: Added replica on this server.
+2015-12-09T11:36:17.591984416 11005.202902s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: Starting a new Raft election for term 1.
+2015-12-09T11:36:17.663845777 11005.274763s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T11:36:19.212056325 11006.822974s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: Configuration is changing.
+2015-12-09T11:50:09.815549452 11837.426467s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Added replica on this server.
+2015-12-09T11:50:11.602070332 11839.212988s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Starting a new Raft election for term 1.
+2015-12-09T11:50:11.675786630 11839.286705s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T11:50:13.161021653 11840.771939s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Configuration is changing.
+2015-12-09T11:50:13.383359398 11840.994277s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Configuration is changing.
+2015-12-09T11:50:13.628038178 11841.238956s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Configuration is changing.
+2015-12-09T11:51:41.520936754 11929.131854s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: Configuration is changing.
+2015-12-09T12:40:41.139160614 14868.750078s notice: Removing file /home/arleyhr/Documentos/Projects/AF/rethinkdb_data/e83c8425-5e91-4408-96f8-2783edf70ca9
+2015-12-09T12:40:41.139175844 14868.750093s info: Table e83c8425-5e91-4408-96f8-2783edf70ca9: Deleted the table.
+2015-12-09T12:43:56.155501883 15063.766420s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Added replica on this server.
+2015-12-09T12:43:57.603103971 15065.214021s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Starting a new Raft election for term 1.
+2015-12-09T12:43:57.673997144 15065.284915s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T12:43:58.349396907 15065.960315s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Configuration is changing.
+2015-12-09T12:43:58.505939005 15066.116857s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Configuration is changing.
+2015-12-09T12:43:58.728562670 15066.339480s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Configuration is changing.
+2015-12-09T12:47:36.295499635 15283.906417s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Added replica on this server.
+2015-12-09T12:47:37.774139869 15285.385057s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Starting a new Raft election for term 1.
+2015-12-09T12:47:37.838937608 15285.449855s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-09T12:47:38.491810921 15286.102729s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Configuration is changing.
+2015-12-09T12:47:38.638307241 15286.249225s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Configuration is changing.
+2015-12-09T12:47:38.838819582 15286.449737s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Configuration is changing.
+2015-12-09T13:04:35.082802158 16302.693719s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Configuration is changing.
+2015-12-09T13:04:35.215588045 16302.826505s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Configuration is changing.
+2015-12-09T13:06:22.563056047 16410.173974s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Configuration is changing.
+2015-12-09T15:34:57.916918418 21083.929850s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-12-09T15:34:57.917180052 21083.930111s notice: Shutting down client connections...
+2015-12-09T15:34:57.918087620 21083.931018s notice: All client connections closed.
+2015-12-09T15:34:57.918254247 21083.931185s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-12-09T15:34:57.943604716 21083.956536s notice: Storage engine shut down.
+2015-12-09T15:34:59.068805914 0.181263s notice: Running rethinkdb 2.2.1~0wily (GCC 5.2.1)...
+2015-12-09T15:34:59.076052104 0.188513s notice: Running on Linux 4.2.0-19-generic x86_64
+2015-12-09T15:34:59.076542685 0.188999s notice: Loading data from directory /home/arleyhr/Documentos/Projects/AF/rethinkdb_data
+2015-12-09T15:34:59.179109636 0.291566s info: Automatically using cache size of 2790 MB
+2015-12-09T15:34:59.180093331 0.292550s notice: Listening for intracluster connections on port 29015
+2015-12-09T15:34:59.309376119 0.421833s notice: Listening for client driver connections on port 28015
+2015-12-09T15:34:59.309589309 0.422046s notice: Listening for administrative HTTP connections on port 8080
+2015-12-09T15:34:59.309664524 0.422121s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-12-09T15:34:59.309665792 0.422122s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-09T15:34:59.309666747 0.422123s notice: Server ready, "arleyhr_laptop_91t" f35c18de-8e73-4b50-afb5-303c60fe3277
+2015-12-09T15:35:00.369160505 1.481617s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: Starting a new Raft election for term 2.
+2015-12-09T15:35:00.432432326 1.544889s info: Table cd6d2550-1cba-4a58-b7a5-e9c9cc6e5251: This server is Raft leader for term 2. Latest log index is 7.
+2015-12-09T15:35:00.668197797 1.780654s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: Starting a new Raft election for term 2.
+2015-12-09T15:35:00.764787900 1.877245s info: Table 89e9b1b7-a3db-4c24-ac5a-f0b4a3cbac6c: This server is Raft leader for term 2. Latest log index is 4.
+2015-12-09T15:35:01.078724478 2.191181s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: Starting a new Raft election for term 2.
+2015-12-09T15:35:01.084918288 2.197375s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: Starting a new Raft election for term 2.
+2015-12-09T15:35:01.176644787 2.289102s info: Table 82ef1b02-fa4f-4099-a17a-4a88718382ed: This server is Raft leader for term 2. Latest log index is 8.
+2015-12-09T15:35:01.176718538 2.289175s info: Table 9c28209e-ba6d-40be-bba8-dca3ac907af2: This server is Raft leader for term 2. Latest log index is 5.
